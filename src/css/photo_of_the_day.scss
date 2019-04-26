@@ -1,0 +1,39 @@
+.photo-of-the-day {
+  padding: 0;
+  height: 100%;
+  background: black;
+  position: relative;
+}
+
+.photo-of-the-day .photo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  opacity: .7;
+}
+
+.photo-of-the-day .photo-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10%;
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+.photo-of-the-day .photo-description h3 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+#nasa-photo-of-the-day .photo-description p {
+  font-size: .3em;
+  font-weight: 300;
+  line-height: 1.4em;
+}

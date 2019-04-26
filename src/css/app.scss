@@ -1,0 +1,94 @@
+html, body, #root, #app-container {
+  height: 100%;
+}
+
+html * {cursor:none}
+
+.grid-container {
+  height: 100%;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  opacity: .5;
+}
+
+.clock {
+  position: relative;
+  height: 100%;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.clock .date {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  font-size: 20px;
+  font-weight: 300;
+  opacity: .4;
+}
+
+.clock .time {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-size: 90px;
+  font-weight: 100;
+}
+
+.clock .time .seconds {
+  font-size: 55px;
+  opacity: .4;
+}
+
+.clock .moon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 220px;
+  height: 220px;
+}
+
+.calendar {
+  color: #fff;
+}
+
+.now-playing {
+  position: relative;
+  height: 100%;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.now-playing .track-art {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 14%;
+  left: 50%;
+  margin: 0 0 0 -90px;
+  box-shadow: 0 0 15px 5px rgba(0,0,0,.3);
+}
+
+.now-playing .track-info {
+  position: absolute;
+  bottom: 14%;
+  width: 100%;
+  text-align: center;
+}
+
+.now-playing .track-info .track-title {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
